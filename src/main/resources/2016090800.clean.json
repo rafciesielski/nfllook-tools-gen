@@ -1,0 +1,703 @@
+{
+  "home": {
+    "score": {
+      "1": 0,
+      "2": 7,
+      "3": 0,
+      "4": 14,
+      "5": 0,
+      "T": 21
+    },
+    "abbr": "DEN",
+    "to": 1,
+    "stats": {
+      "team": {
+        "totfd": 21,
+        "totyds": 307,
+        "pyds": 159,
+        "ryds": 148,
+        "pen": 4,
+        "penyds": 22,
+        "trnovr": 3,
+        "pt": 3,
+        "ptyds": 140,
+        "ptavg": 43,
+        "top": "27:41"
+      },
+      "passers": [
+        {
+          "name": "T.Siemian",
+          "att": 26,
+          "cmp": 18,
+          "yds": 178,
+          "tds": 1,
+          "ints": 2,
+          "twopta": 0,
+          "twoptm": 0,
+          "id": "00-0032156"
+        }
+      ],
+      "rushers": [
+        {
+          "name": "C.Anderson",
+          "att": 20,
+          "yds": 92,
+          "tds": 1,
+          "lng": 28,
+          "lngtd": 1,
+          "twopta": 0,
+          "twoptm": 0,
+          "id": "00-0029854"
+        },
+        {
+          "name": "A.Janovich",
+          "att": 1,
+          "yds": 28,
+          "tds": 1,
+          "lng": 28,
+          "lngtd": 28,
+          "twopta": 0,
+          "twoptm": 0,
+          "id": "00-0032956"
+        },
+        {
+          "name": "T.Siemian",
+          "att": 5,
+          "yds": 20,
+          "tds": 0,
+          "lng": 11,
+          "lngtd": 0,
+          "twopta": 0,
+          "twoptm": 0,
+          "id": "00-0032156"
+        },
+        {
+          "name": "D.Booker",
+          "att": 3,
+          "yds": 8,
+          "tds": 0,
+          "lng": 6,
+          "lngtd": 0,
+          "twopta": 0,
+          "twoptm": 0,
+          "id": "00-0032972"
+        }
+      ],
+      "receivers": [
+        {
+          "name": "E.Sanders",
+          "rec": 5,
+          "yds": 49,
+          "tds": 0,
+          "lng": 15,
+          "lngtd": 0,
+          "twopta": 0,
+          "twoptm": 0,
+          "id": "00-0027685"
+        },
+        {
+          "name": "D.Thomas",
+          "rec": 4,
+          "yds": 48,
+          "tds": 0,
+          "lng": 23,
+          "lngtd": 0,
+          "twopta": 0,
+          "twoptm": 0,
+          "id": "00-0027874"
+        },
+        {
+          "name": "C.Anderson",
+          "rec": 4,
+          "yds": 47,
+          "tds": 1,
+          "lng": 25,
+          "lngtd": 25,
+          "twopta": 0,
+          "twoptm": 0,
+          "id": "00-0029854"
+        },
+        {
+          "name": "V.Green",
+          "rec": 4,
+          "yds": 28,
+          "tds": 0,
+          "lng": 13,
+          "lngtd": 0,
+          "twopta": 0,
+          "twoptm": 0,
+          "id": "00-0028142"
+        },
+        {
+          "name": "K.Bibbs",
+          "rec": 1,
+          "yds": 6,
+          "tds": 0,
+          "lng": 6,
+          "lngtd": 0,
+          "twopta": 0,
+          "twoptm": 0,
+          "id": "00-0031102"
+        }
+      ],
+      "kickers": [
+        {
+          "name": "B.McManus",
+          "fgm": 0,
+          "fga": 0,
+          "fgyds": 0,
+          "totpfg": 0,
+          "xpmade": 3,
+          "xpmissed": 0,
+          "xpa": 3,
+          "xpb": 0,
+          "xptot": 3,
+          "id": "00-0029822"
+        }
+      ],
+      "punters": [
+        {
+          "name": "R.Dixon",
+          "pts": 3,
+          "yds": 140,
+          "avg": 43,
+          "i20": 0,
+          "lng": 54,
+          "id": "00-0032943"
+        }
+      ],
+      "kickReturners": [],
+      "puntReturners": [
+        {
+          "name": "J.Norwood",
+          "ret": 2,
+          "avg": 13,
+          "tds": 0,
+          "lng": 15,
+          "lngtd": 0,
+          "id": "00-0026739"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "T.Davis",
+          "tkl": 6,
+          "ast": 1,
+          "sk": 0.5,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0031427"
+        },
+        {
+          "name": "B.Marshall",
+          "tkl": 6,
+          "ast": 0,
+          "sk": 0,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0029620"
+        },
+        {
+          "name": "T.Ward",
+          "tkl": 5,
+          "ast": 0,
+          "sk": 0,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0027653"
+        },
+        {
+          "name": "D.Stewart",
+          "tkl": 5,
+          "ast": 0,
+          "sk": 0,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0027256"
+        },
+        {
+          "name": "B.Roby",
+          "tkl": 5,
+          "ast": 0,
+          "sk": 0,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0031372"
+        },
+        {
+          "name": "V.Miller",
+          "tkl": 3,
+          "ast": 0,
+          "sk": 1,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0027940"
+        },
+        {
+          "name": "D.Ware",
+          "tkl": 2,
+          "ast": 1,
+          "sk": 1.5,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0023445"
+        },
+        {
+          "name": "C.Harris",
+          "tkl": 2,
+          "ast": 0,
+          "sk": 0,
+          "int": 1,
+          "ffum": 0,
+          "id": "00-0028224"
+        },
+        {
+          "name": "D.Wolfe",
+          "tkl": 2,
+          "ast": 0,
+          "sk": 0,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0029586"
+        },
+        {
+          "name": "C.Nelson",
+          "tkl": 2,
+          "ast": 0,
+          "sk": 0,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0031350"
+        },
+        {
+          "name": "S.Ray",
+          "tkl": 1,
+          "ast": 1,
+          "sk": 0,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0032221"
+        },
+        {
+          "name": "J.Crick",
+          "tkl": 1,
+          "ast": 0,
+          "sk": 0,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0029417"
+        },
+        {
+          "name": "S.Barrett",
+          "tkl": 1,
+          "ast": 0,
+          "sk": 0,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0031101"
+        },
+        {
+          "name": "K.Webster",
+          "tkl": 1,
+          "ast": 0,
+          "sk": 0,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0030523"
+        },
+        {
+          "name": "J.Simmons",
+          "tkl": 1,
+          "ast": 0,
+          "sk": 0,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0032971"
+        },
+        {
+          "name": "D.Kilgo",
+          "tkl": 1,
+          "ast": 0,
+          "sk": 0,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0032138"
+        },
+        {
+          "name": "S.Williams",
+          "tkl": 1,
+          "ast": 0,
+          "sk": 0,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0030577"
+        },
+        {
+          "name": "A.Talib",
+          "tkl": 0,
+          "ast": 1,
+          "sk": 0,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0026160"
+        }
+      ]
+    },
+    "players": null
+  },
+  "away": {
+    "score": {
+      "1": 7,
+      "2": 10,
+      "3": 0,
+      "4": 3,
+      "5": 0,
+      "T": 20
+    },
+    "abbr": "CAR",
+    "to": 0,
+    "stats": {
+      "team": {
+        "totfd": 21,
+        "totyds": 333,
+        "pyds": 176,
+        "ryds": 157,
+        "pen": 8,
+        "penyds": 85,
+        "trnovr": 1,
+        "pt": 4,
+        "ptyds": 252,
+        "ptavg": 47,
+        "top": "32:19"
+      },
+      "passers": [
+        {
+          "name": "C.Newton",
+          "att": 33,
+          "cmp": 18,
+          "yds": 194,
+          "tds": 1,
+          "ints": 1,
+          "twopta": 0,
+          "twoptm": 0,
+          "id": "00-0027939"
+        }
+      ],
+      "rushers": [
+        {
+          "name": "J.Stewart",
+          "att": 15,
+          "yds": 64,
+          "tds": 0,
+          "lng": 11,
+          "lngtd": 0,
+          "twopta": 0,
+          "twoptm": 0,
+          "id": "00-0026153"
+        },
+        {
+          "name": "C.Newton",
+          "att": 11,
+          "yds": 54,
+          "tds": 1,
+          "lng": 12,
+          "lngtd": 2,
+          "twopta": 0,
+          "twoptm": 0,
+          "id": "00-0027939"
+        },
+        {
+          "name": "T.Ginn",
+          "att": 1,
+          "yds": 20,
+          "tds": 0,
+          "lng": 20,
+          "lngtd": 0,
+          "twopta": 0,
+          "twoptm": 0,
+          "id": "00-0025396"
+        },
+        {
+          "name": "F.Whittaker",
+          "att": 3,
+          "yds": 13,
+          "tds": 0,
+          "lng": 6,
+          "lngtd": 0,
+          "twopta": 0,
+          "twoptm": 0,
+          "id": "00-0029731"
+        },
+        {
+          "name": "M.Tolbert",
+          "att": 2,
+          "yds": 6,
+          "tds": 0,
+          "lng": 5,
+          "lngtd": 0,
+          "twopta": 0,
+          "twoptm": 0,
+          "id": "00-0026069"
+        }
+      ],
+      "receivers": [
+        {
+          "name": "G.Olsen",
+          "rec": 7,
+          "yds": 73,
+          "tds": 0,
+          "lng": 18,
+          "lngtd": 0,
+          "twopta": 0,
+          "twoptm": 0,
+          "id": "00-0025418"
+        },
+        {
+          "name": "K.Benjamin",
+          "rec": 6,
+          "yds": 91,
+          "tds": 1,
+          "lng": 17,
+          "lngtd": 14,
+          "twopta": 0,
+          "twoptm": 0,
+          "id": "00-0031359"
+        },
+        {
+          "name": "C.Brown",
+          "rec": 1,
+          "yds": 11,
+          "tds": 0,
+          "lng": 11,
+          "lngtd": 0,
+          "twopta": 0,
+          "twoptm": 0,
+          "id": "00-0031118"
+        },
+        {
+          "name": "D.Funchess",
+          "rec": 1,
+          "yds": 9,
+          "tds": 0,
+          "lng": 9,
+          "lngtd": 0,
+          "twopta": 0,
+          "twoptm": 0,
+          "id": "00-0032055"
+        },
+        {
+          "name": "T.Ginn",
+          "rec": 1,
+          "yds": 5,
+          "tds": 0,
+          "lng": 5,
+          "lngtd": 0,
+          "twopta": 0,
+          "twoptm": 0,
+          "id": "00-0025396"
+        },
+        {
+          "name": "F.Whittaker",
+          "rec": 1,
+          "yds": 4,
+          "tds": 0,
+          "lng": 4,
+          "lngtd": 0,
+          "twopta": 0,
+          "twoptm": 0,
+          "id": "00-0029731"
+        },
+        {
+          "name": "M.Tolbert",
+          "rec": 1,
+          "yds": 1,
+          "tds": 0,
+          "lng": 1,
+          "lngtd": 0,
+          "twopta": 0,
+          "twoptm": 0,
+          "id": "00-0026069"
+        }
+      ],
+      "kickers": [
+        {
+          "name": "G.Gano",
+          "fgm": 2,
+          "fga": 3,
+          "fgyds": 44,
+          "totpfg": 6,
+          "xpmade": 2,
+          "xpmissed": 0,
+          "xpa": 2,
+          "xpb": 0,
+          "xptot": 2,
+          "id": "00-0026858"
+        }
+      ],
+      "punters": [
+        {
+          "name": "A.Lee",
+          "pts": 4,
+          "yds": 252,
+          "avg": 47,
+          "i20": 0,
+          "lng": 76,
+          "id": "00-0022824"
+        }
+      ],
+      "kickReturners": [
+        {
+          "name": "T.Ginn",
+          "ret": 1,
+          "avg": 9,
+          "tds": 0,
+          "lng": 9,
+          "lngtd": 0,
+          "id": "00-0025396"
+        }
+      ],
+      "puntReturners": [
+        {
+          "name": "T.Ginn",
+          "ret": 2,
+          "avg": 6,
+          "tds": 0,
+          "lng": 8,
+          "lngtd": 0,
+          "id": "00-0025396"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "L.Kuechly",
+          "tkl": 10,
+          "ast": 0,
+          "sk": 0,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0029248"
+        },
+        {
+          "name": "J.Bradberry",
+          "tkl": 5,
+          "ast": 1,
+          "sk": 0,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0032890"
+        },
+        {
+          "name": "T.Boston",
+          "tkl": 4,
+          "ast": 0,
+          "sk": 1,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0031261"
+        },
+        {
+          "name": "T.Davis",
+          "tkl": 4,
+          "ast": 0,
+          "sk": 0,
+          "int": 1,
+          "ffum": 0,
+          "id": "00-0023448"
+        },
+        {
+          "name": "R.McClain",
+          "tkl": 4,
+          "ast": 0,
+          "sk": 0,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0027840"
+        },
+        {
+          "name": "S.Thompson",
+          "tkl": 3,
+          "ast": 0,
+          "sk": 0,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0031550"
+        },
+        {
+          "name": "K.Coleman",
+          "tkl": 2,
+          "ast": 1,
+          "sk": 0,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0027835"
+        },
+        {
+          "name": "B.Benwikere",
+          "tkl": 2,
+          "ast": 0,
+          "sk": 0,
+          "int": 1,
+          "ffum": 0,
+          "id": "00-0031262"
+        },
+        {
+          "name": "C.Johnson",
+          "tkl": 2,
+          "ast": 0,
+          "sk": 0,
+          "int": 0,
+          "ffum": 1,
+          "id": "00-0025470"
+        },
+        {
+          "name": "K.Short",
+          "tkl": 2,
+          "ast": 0,
+          "sk": 0,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0030448"
+        },
+        {
+          "name": "V.Butler",
+          "tkl": 1,
+          "ast": 0,
+          "sk": 1,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0032967"
+        },
+        {
+          "name": "R.Delaire",
+          "tkl": 1,
+          "ast": 0,
+          "sk": 0,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0031843"
+        },
+        {
+          "name": "A.Klein",
+          "tkl": 1,
+          "ast": 0,
+          "sk": 0,
+          "int": 0,
+          "ffum": 0,
+          "id": "00-0030463"
+        }
+      ]
+    },
+    "players": null
+  },
+  "weather": null,
+  "media": null,
+  "yl": "",
+  "qtr": "Final",
+  "note": null,
+  "down": 0,
+  "togo": 0,
+  "redzone": true,
+  "clock": "00:04",
+  "posteam": "DEN",
+  "stadium": null
+}
