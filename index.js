@@ -18,7 +18,7 @@ conference1.divisions = [division1]
 
 week3 = {}
 week3.week = 3
-week3.conference = [conference1]
+week3.conferences = [conference1]
 
 var fs = require('fs');
 var path = __dirname + '\\src\\main\\resources\\' + 'week_standings.json';

@@ -1,8 +1,6 @@
 
 package org.nfllook.tools.generated.ws;
 
-import java.util.ArrayList;
-import java.util.List;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
@@ -10,17 +8,20 @@ import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;
 import org.apache.commons.lang.builder.ToStringBuilder;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
     "week",
-    "conference"
+    "conferences"
 })
 public class Standing {
 
     @JsonProperty("week")
     private Integer week;
-    @JsonProperty("conference")
-    private List<Conference> conference = new ArrayList<Conference>();
+    @JsonProperty("conferences")
+    private List<Conference> conferences = new ArrayList<Conference>();
 
     /**
      * 
@@ -50,25 +51,25 @@ public class Standing {
     /**
      * 
      * @return
-     *     The conference
+     *     The conferences
      */
-    @JsonProperty("conference")
-    public List<Conference> getConference() {
-        return conference;
+    @JsonProperty("conferences")
+    public List<Conference> getConferences() {
+        return conferences;
     }
 
     /**
      * 
-     * @param conference
-     *     The conference
+     * @param conferences
+     *     The conferences
      */
-    @JsonProperty("conference")
-    public void setConference(List<Conference> conference) {
-        this.conference = conference;
+    @JsonProperty("conferences")
+    public void setConferences(List<Conference> conferences) {
+        this.conferences = conferences;
     }
 
-    public Standing withConference(List<Conference> conference) {
-        this.conference = conference;
+    public Standing withConferences(List<Conference> conferences) {
+        this.conferences = conferences;
         return this;
     }
 
@@ -79,7 +80,7 @@ public class Standing {
 
     @Override
     public int hashCode() {
-        return new HashCodeBuilder().append(week).append(conference).toHashCode();
+        return new HashCodeBuilder().append(week).append(conferences).toHashCode();
     }
 
     @Override
@@ -91,7 +92,7 @@ public class Standing {
             return false;
         }
         Standing rhs = ((Standing) other);
-        return new EqualsBuilder().append(week, rhs.week).append(conference, rhs.conference).isEquals();
+        return new EqualsBuilder().append(week, rhs.week).append(conferences, rhs.conferences).isEquals();
     }
 
 }
