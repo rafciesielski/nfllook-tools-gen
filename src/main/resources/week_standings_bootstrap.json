@@ -1,0 +1,567 @@
+{
+  "week": 0,
+  "conferences": [
+    {
+      "name": "AFC",
+      "divisions": [
+        {
+          "name": "East",
+          "teams": [
+            {
+              "name": "BUF",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            },
+            {
+              "name": "MIA",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            },
+            {
+              "name": "NE",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            },
+            {
+              "name": "NYJ",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            }
+          ]
+        },
+        {
+          "name": "North",
+          "teams": [
+            {
+              "name": "BAL",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            },
+            {
+              "name": "CIN",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            },
+            {
+              "name": "CLE",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            },
+            {
+              "name": "PIT",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            }
+          ]
+        },
+        {
+          "name": "South",
+          "teams": [
+            {
+              "name": "HOU",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            },
+            {
+              "name": "IND",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            },
+            {
+              "name": "JAX",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            },
+            {
+              "name": "TEN",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            }
+          ]
+        },
+        {
+          "name": "West",
+          "teams": [
+            {
+              "name": "DEN",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            },
+            {
+              "name": "KC",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            },
+            {
+              "name": "OAK",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            },
+            {
+              "name": "SD",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NFC",
+      "divisions": [
+        {
+          "name": "East",
+          "teams": [
+            {
+              "name": "DAL",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            },
+            {
+              "name": "NYG",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            },
+            {
+              "name": "PHI",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            },
+            {
+              "name": "WAS",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            }
+          ]
+        },
+        {
+          "name": "North",
+          "teams": [
+            {
+              "name": "CHI",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            },
+            {
+              "name": "DET",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            },
+            {
+              "name": "GB",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            },
+            {
+              "name": "MIN",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            }
+          ]
+        },
+        {
+          "name": "South",
+          "teams": [
+            {
+              "name": "ATL",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            },
+            {
+              "name": "CAR",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            },
+            {
+              "name": "NO",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            },
+            {
+              "name": "TB",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            }
+          ]
+        },
+        {
+          "name": "West",
+          "teams": [
+            {
+              "name": "ARI",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            },
+            {
+              "name": "LA",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            },
+            {
+              "name": "SF",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            },
+            {
+              "name": "SEA",
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "oppsOfPlayedGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              },
+              "oppsOfRemainingGames": {
+                "wins": 0,
+                "losses": 0,
+                "draws": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

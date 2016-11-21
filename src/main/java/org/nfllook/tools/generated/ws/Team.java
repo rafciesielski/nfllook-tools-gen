@@ -11,23 +11,26 @@ import org.apache.commons.lang.builder.ToStringBuilder;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
     "name",
-    "w",
-    "l",
-    "d",
-    "opp"
+    "wins",
+    "losses",
+    "draws",
+    "oppsOfPlayedGames",
+    "oppsOfRemainingGames"
 })
 public class Team {
 
     @JsonProperty("name")
     private String name;
-    @JsonProperty("w")
-    private Integer w;
-    @JsonProperty("l")
-    private Integer l;
-    @JsonProperty("d")
-    private Integer d;
-    @JsonProperty("opp")
-    private Opp opp;
+    @JsonProperty("wins")
+    private Integer wins;
+    @JsonProperty("losses")
+    private Integer losses;
+    @JsonProperty("draws")
+    private Integer draws;
+    @JsonProperty("oppsOfPlayedGames")
+    private OppsOfPlayedGames oppsOfPlayedGames;
+    @JsonProperty("oppsOfRemainingGames")
+    private OppsOfRemainingGames oppsOfRemainingGames;
 
     /**
      * 
@@ -57,100 +60,125 @@ public class Team {
     /**
      * 
      * @return
-     *     The w
+     *     The wins
      */
-    @JsonProperty("w")
-    public Integer getW() {
-        return w;
+    @JsonProperty("wins")
+    public Integer getWins() {
+        return wins;
     }
 
     /**
      * 
-     * @param w
-     *     The w
+     * @param wins
+     *     The wins
      */
-    @JsonProperty("w")
-    public void setW(Integer w) {
-        this.w = w;
+    @JsonProperty("wins")
+    public void setWins(Integer wins) {
+        this.wins = wins;
     }
 
-    public Team withW(Integer w) {
-        this.w = w;
+    public Team withWins(Integer wins) {
+        this.wins = wins;
         return this;
     }
 
     /**
      * 
      * @return
-     *     The l
+     *     The losses
      */
-    @JsonProperty("l")
-    public Integer getL() {
-        return l;
+    @JsonProperty("losses")
+    public Integer getLosses() {
+        return losses;
     }
 
     /**
      * 
-     * @param l
-     *     The l
+     * @param losses
+     *     The losses
      */
-    @JsonProperty("l")
-    public void setL(Integer l) {
-        this.l = l;
+    @JsonProperty("losses")
+    public void setLosses(Integer losses) {
+        this.losses = losses;
     }
 
-    public Team withL(Integer l) {
-        this.l = l;
+    public Team withLosses(Integer losses) {
+        this.losses = losses;
         return this;
     }
 
     /**
      * 
      * @return
-     *     The d
+     *     The draws
      */
-    @JsonProperty("d")
-    public Integer getD() {
-        return d;
+    @JsonProperty("draws")
+    public Integer getDraws() {
+        return draws;
     }
 
     /**
      * 
-     * @param d
-     *     The d
+     * @param draws
+     *     The draws
      */
-    @JsonProperty("d")
-    public void setD(Integer d) {
-        this.d = d;
+    @JsonProperty("draws")
+    public void setDraws(Integer draws) {
+        this.draws = draws;
     }
 
-    public Team withD(Integer d) {
-        this.d = d;
+    public Team withDraws(Integer draws) {
+        this.draws = draws;
         return this;
     }
 
     /**
      * 
      * @return
-     *     The opp
+     *     The oppsOfPlayedGames
      */
-    @JsonProperty("opp")
-    public Opp getOpp() {
-        return opp;
+    @JsonProperty("oppsOfPlayedGames")
+    public OppsOfPlayedGames getOppsOfPlayedGames() {
+        return oppsOfPlayedGames;
     }
 
     /**
      * 
-     * @param opp
-     *     The opp
+     * @param oppsOfPlayedGames
+     *     The oppsOfPlayedGames
      */
-    @JsonProperty("opp")
-    public void setOpp(Opp opp) {
-        this.opp = opp;
+    @JsonProperty("oppsOfPlayedGames")
+    public void setOppsOfPlayedGames(OppsOfPlayedGames oppsOfPlayedGames) {
+        this.oppsOfPlayedGames = oppsOfPlayedGames;
     }
 
-    public Team withOpp(Opp opp) {
-        this.opp = opp;
+    public Team withOppsOfPlayedGames(OppsOfPlayedGames oppsOfPlayedGames) {
+        this.oppsOfPlayedGames = oppsOfPlayedGames;
+        return this;
+    }
+
+    /**
+     * 
+     * @return
+     *     The oppsOfRemainingGames
+     */
+    @JsonProperty("oppsOfRemainingGames")
+    public OppsOfRemainingGames getOppsOfRemainingGames() {
+        return oppsOfRemainingGames;
+    }
+
+    /**
+     * 
+     * @param oppsOfRemainingGames
+     *     The oppsOfRemainingGames
+     */
+    @JsonProperty("oppsOfRemainingGames")
+    public void setOppsOfRemainingGames(OppsOfRemainingGames oppsOfRemainingGames) {
+        this.oppsOfRemainingGames = oppsOfRemainingGames;
+    }
+
+    public Team withOppsOfRemainingGames(OppsOfRemainingGames oppsOfRemainingGames) {
+        this.oppsOfRemainingGames = oppsOfRemainingGames;
         return this;
     }
 
@@ -161,7 +189,7 @@ public class Team {
 
     @Override
     public int hashCode() {
-        return new HashCodeBuilder().append(name).append(w).append(l).append(d).append(opp).toHashCode();
+        return new HashCodeBuilder().append(name).append(wins).append(losses).append(draws).append(oppsOfPlayedGames).append(oppsOfRemainingGames).toHashCode();
     }
 
     @Override
@@ -173,7 +201,7 @@ public class Team {
             return false;
         }
         Team rhs = ((Team) other);
-        return new EqualsBuilder().append(name, rhs.name).append(w, rhs.w).append(l, rhs.l).append(d, rhs.d).append(opp, rhs.opp).isEquals();
+        return new EqualsBuilder().append(name, rhs.name).append(wins, rhs.wins).append(losses, rhs.losses).append(draws, rhs.draws).append(oppsOfPlayedGames, rhs.oppsOfPlayedGames).append(oppsOfRemainingGames, rhs.oppsOfRemainingGames).isEquals();
     }
 
 }

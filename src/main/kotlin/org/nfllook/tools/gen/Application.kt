@@ -18,11 +18,15 @@ class Config : DefaultGenerationConfig() {
     override fun isIncludeAdditionalProperties(): Boolean {
         return false
     }
+
+    override fun isRemoveOldOutput(): Boolean {
+        return true
+    }
 }
 
 fun main(args: Array<String>) {
     generateFor(getUrl("2016090800.clean.json")!!, "GameData", "org.nfllook.tools.generated.gd")
-    generateFor(getUrl("week_standings.json")!!, "Standing", "org.nfllook.tools.generated.ws")
+    generateFor(getUrl("week_standings_bootstrap.json")!!, "Standing", "org.nfllook.tools.generated.ws")
 }
 
 private fun generateFor(source: URL, className: String, packageName: String) {
