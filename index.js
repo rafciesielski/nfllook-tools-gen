@@ -20,10 +20,10 @@ var nfcWest = createDivision("West", createTeam("ARI"), createTeam("LA"),
     createTeam("SF"), createTeam("SEA"))
 var nfc = createConference("NFC", nfcEast, nfcNorth, nfcSouth, nfcWest)
 
-var weekStandings = createWeekStandings(afc, nfc)
+var standings = createWeekStandings(afc, nfc)
 
 var path = __dirname + '\\src\\main\\resources\\' + 'week_standings_bootstrap.json';
-fs.writeFile(path, JSON.stringify(weekStandings, null, 2), function(err) {
+fs.writeFile(path, JSON.stringify(standings, null, 2), function(err) {
     if (err) {
         return console.log(err);
     }
@@ -62,8 +62,9 @@ function createConference(name, division1, division2, division3, division4) {
 }
 
 function createWeekStandings(conference1, conference2) {
-    week = {}
-    week.week = 0
-    week.conferences = [conference1, conference2]
-    return week
+    standings = {}
+    standings._id = '2016_0'
+    standings.week = 0
+    standings.conferences = [conference1, conference2]
+    return standings
 }
