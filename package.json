@@ -4,7 +4,7 @@
   "description": "Generate sample json files",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "gen": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "rafciesielski",
