@@ -26,7 +26,8 @@ class Config : DefaultGenerationConfig() {
 
 fun main(args: Array<String>) {
     generateFor(getUrl("2016090800.clean.json")!!, "GameData", "org.nfllook.tools.generated.gd")
-    generateFor(getUrl("week_standings_bootstrap.json")!!, "Standings", "org.nfllook.tools.generated.ws")
+    generateFor(getUrl("week_standings_bootstrap.json")!!, "Standings", "org.nfllook.tools.generated.wst")
+    generateFor(getUrl("week_schedule.json")!!, "Schedule", "org.nfllook.tools.generated.wsch")
 }
 
 private fun generateFor(source: URL, className: String, packageName: String) {

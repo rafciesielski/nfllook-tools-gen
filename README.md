@@ -12,7 +12,7 @@ npm run gen
 mvnw clean install
 
 ## Generate source code(POJOs) from sample json files
-java -jar target\gen-0.0.2-SNAPSHOT.jar
+java -jar target\gen-0.0.3.jar
 
 ## Install generated classes in local maven repository
 mvnw install 

@@ -1,5 +1,5 @@
 
-package org.nfllook.tools.generated.ws;
+package org.nfllook.tools.generated.wst;
 
 import java.util.ArrayList;
 import java.util.List;

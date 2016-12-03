@@ -1,0 +1,12 @@
+{
+  "_id": "2016_1",
+  "week": 1,
+  "games": [
+    {
+      "home": "DEN",
+      "away": "CAR",
+      "dayOfTheWeek": "Thu",
+      "time": "8:30"
+    }
+  ]
+}

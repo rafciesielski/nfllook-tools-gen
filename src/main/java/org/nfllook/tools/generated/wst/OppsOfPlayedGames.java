@@ -1,5 +1,5 @@
 
-package org.nfllook.tools.generated.ws;
+package org.nfllook.tools.generated.wst;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
