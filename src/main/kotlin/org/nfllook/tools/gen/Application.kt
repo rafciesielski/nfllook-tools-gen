@@ -37,4 +37,4 @@ private fun generateFor(source: URL, className: String, packageName: String) {
     codeModel.build(File(System.getProperty("user.dir") + "/src/main/java"))
 }
 
-private fun getUrl(file: String): URL? = ClassLoader.getSystemClassLoader().getResource(file)
+private fun getUrl(file: String): URL? = Thread.currentThread().contextClassLoader.getResource(file)
