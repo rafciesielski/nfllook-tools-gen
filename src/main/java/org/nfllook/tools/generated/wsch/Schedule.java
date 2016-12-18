@@ -14,6 +14,7 @@ import org.apache.commons.lang.builder.ToStringBuilder;
 @JsonPropertyOrder({
     "_id",
     "week",
+    "uploudDate",
     "games"
 })
 public class Schedule {
@@ -22,6 +23,8 @@ public class Schedule {
     private String id;
     @JsonProperty("week")
     private Integer week;
+    @JsonProperty("uploudDate")
+    private String uploudDate;
     @JsonProperty("games")
     private List<Game> games = new ArrayList<Game>();
 
@@ -78,6 +81,31 @@ public class Schedule {
     /**
      * 
      * @return
+     *     The uploudDate
+     */
+    @JsonProperty("uploudDate")
+    public String getUploudDate() {
+        return uploudDate;
+    }
+
+    /**
+     * 
+     * @param uploudDate
+     *     The uploudDate
+     */
+    @JsonProperty("uploudDate")
+    public void setUploudDate(String uploudDate) {
+        this.uploudDate = uploudDate;
+    }
+
+    public Schedule withUploudDate(String uploudDate) {
+        this.uploudDate = uploudDate;
+        return this;
+    }
+
+    /**
+     * 
+     * @return
      *     The games
      */
     @JsonProperty("games")
@@ -107,7 +135,7 @@ public class Schedule {
 
     @Override
     public int hashCode() {
-        return new HashCodeBuilder().append(id).append(week).append(games).toHashCode();
+        return new HashCodeBuilder().append(id).append(week).append(uploudDate).append(games).toHashCode();
     }
 
     @Override
@@ -119,7 +147,7 @@ public class Schedule {
             return false;
         }
         Schedule rhs = ((Schedule) other);
-        return new EqualsBuilder().append(id, rhs.id).append(week, rhs.week).append(games, rhs.games).isEquals();
+        return new EqualsBuilder().append(id, rhs.id).append(week, rhs.week).append(uploudDate, rhs.uploudDate).append(games, rhs.games).isEquals();
     }
 
 }

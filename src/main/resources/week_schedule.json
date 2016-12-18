@@ -1,8 +1,10 @@
 {
   "_id": "2016_1",
   "week": 1,
+  "uploudDate": "2016-12-18T14:17:10.793Z",
   "games": [
     {
+      "id": "2016090800",
       "home": "DEN",
       "away": "CAR",
       "dayOfTheWeek": "Thu",

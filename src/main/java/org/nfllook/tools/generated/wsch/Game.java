@@ -10,6 +10,7 @@ import org.apache.commons.lang.builder.ToStringBuilder;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
+    "id",
     "home",
     "away",
     "dayOfTheWeek",
@@ -17,6 +18,8 @@ import org.apache.commons.lang.builder.ToStringBuilder;
 })
 public class Game {
 
+    @JsonProperty("id")
+    private String id;
     @JsonProperty("home")
     private String home;
     @JsonProperty("away")
@@ -25,6 +28,31 @@ public class Game {
     private String dayOfTheWeek;
     @JsonProperty("time")
     private String time;
+
+    /**
+     * 
+     * @return
+     *     The id
+     */
+    @JsonProperty("id")
+    public String getId() {
+        return id;
+    }
+
+    /**
+     * 
+     * @param id
+     *     The id
+     */
+    @JsonProperty("id")
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public Game withId(String id) {
+        this.id = id;
+        return this;
+    }
 
     /**
      * 
@@ -133,7 +161,7 @@ public class Game {
 
     @Override
     public int hashCode() {
-        return new HashCodeBuilder().append(home).append(away).append(dayOfTheWeek).append(time).toHashCode();
+        return new HashCodeBuilder().append(id).append(home).append(away).append(dayOfTheWeek).append(time).toHashCode();
     }
 
     @Override
@@ -145,7 +173,7 @@ public class Game {
             return false;
         }
         Game rhs = ((Game) other);
-        return new EqualsBuilder().append(home, rhs.home).append(away, rhs.away).append(dayOfTheWeek, rhs.dayOfTheWeek).append(time, rhs.time).isEquals();
+        return new EqualsBuilder().append(id, rhs.id).append(home, rhs.home).append(away, rhs.away).append(dayOfTheWeek, rhs.dayOfTheWeek).append(time, rhs.time).isEquals();
     }
 
 }

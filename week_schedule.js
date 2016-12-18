@@ -12,6 +12,7 @@ fs.writeFile(path, JSON.stringify(schedule, null, 2), function(err) {
 
 function createGame() {
     game = {}
+    game.id = '2016090800'
     game.home = 'DEN'
     game.away = 'CAR'
     game.dayOfTheWeek = 'Thu'
@@ -23,6 +24,7 @@ function createWeekSchedule(game) {
     schedule = {}
     schedule._id = '2016_1'
     schedule.week = 1
+    schedule.uploudDate = new Date()
     schedule.games = [game]
     return schedule
 }
