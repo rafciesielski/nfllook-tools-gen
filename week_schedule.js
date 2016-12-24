@@ -24,7 +24,7 @@ function createWeekSchedule(game) {
     schedule = {}
     schedule._id = '2016_1'
     schedule.week = 1
-    schedule.uploudDate = new Date()
+    schedule.uploadDate = new Date()
     schedule.games = [game]
     return schedule
 }

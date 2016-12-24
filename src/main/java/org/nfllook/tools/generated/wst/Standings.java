@@ -1,8 +1,6 @@
 
 package org.nfllook.tools.generated.wst;
 
-import java.util.ArrayList;
-import java.util.List;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
@@ -10,10 +8,14 @@ import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;
 import org.apache.commons.lang.builder.ToStringBuilder;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
     "_id",
     "week",
+    "uploadDate",
     "conferences"
 })
 public class Standings {
@@ -22,6 +24,8 @@ public class Standings {
     private String id;
     @JsonProperty("week")
     private Integer week;
+    @JsonProperty("uploadDate")
+    private String uploadDate;
     @JsonProperty("conferences")
     private List<Conference> conferences = new ArrayList<Conference>();
 
@@ -78,6 +82,31 @@ public class Standings {
     /**
      * 
      * @return
+     *     The uploadDate
+     */
+    @JsonProperty("uploadDate")
+    public String getUploadDate() {
+        return uploadDate;
+    }
+
+    /**
+     * 
+     * @param uploadDate
+     *     The uploadDate
+     */
+    @JsonProperty("uploadDate")
+    public void setUploadDate(String uploadDate) {
+        this.uploadDate = uploadDate;
+    }
+
+    public Standings withUploadDate(String uploadDate) {
+        this.uploadDate = uploadDate;
+        return this;
+    }
+
+    /**
+     * 
+     * @return
      *     The conferences
      */
     @JsonProperty("conferences")
@@ -107,7 +136,7 @@ public class Standings {
 
     @Override
     public int hashCode() {
-        return new HashCodeBuilder().append(id).append(week).append(conferences).toHashCode();
+        return new HashCodeBuilder().append(id).append(week).append(uploadDate).append(conferences).toHashCode();
     }
 
     @Override
@@ -119,7 +148,7 @@ public class Standings {
             return false;
         }
         Standings rhs = ((Standings) other);
-        return new EqualsBuilder().append(id, rhs.id).append(week, rhs.week).append(conferences, rhs.conferences).isEquals();
+        return new EqualsBuilder().append(id, rhs.id).append(week, rhs.week).append(uploadDate, rhs.uploadDate).append(conferences, rhs.conferences).isEquals();
     }
 
 }

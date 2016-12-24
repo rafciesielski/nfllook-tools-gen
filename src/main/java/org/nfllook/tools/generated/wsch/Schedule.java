@@ -14,7 +14,7 @@ import org.apache.commons.lang.builder.ToStringBuilder;
 @JsonPropertyOrder({
     "_id",
     "week",
-    "uploudDate",
+    "uploadDate",
     "games"
 })
 public class Schedule {
@@ -23,8 +23,8 @@ public class Schedule {
     private String id;
     @JsonProperty("week")
     private Integer week;
-    @JsonProperty("uploudDate")
-    private String uploudDate;
+    @JsonProperty("uploadDate")
+    private String uploadDate;
     @JsonProperty("games")
     private List<Game> games = new ArrayList<Game>();
 
@@ -81,25 +81,25 @@ public class Schedule {
     /**
      * 
      * @return
-     *     The uploudDate
+     *     The uploadDate
      */
-    @JsonProperty("uploudDate")
-    public String getUploudDate() {
-        return uploudDate;
+    @JsonProperty("uploadDate")
+    public String getUploadDate() {
+        return uploadDate;
     }
 
     /**
      * 
-     * @param uploudDate
-     *     The uploudDate
+     * @param uploadDate
+     *     The uploadDate
      */
-    @JsonProperty("uploudDate")
-    public void setUploudDate(String uploudDate) {
-        this.uploudDate = uploudDate;
+    @JsonProperty("uploadDate")
+    public void setUploadDate(String uploadDate) {
+        this.uploadDate = uploadDate;
     }
 
-    public Schedule withUploudDate(String uploudDate) {
-        this.uploudDate = uploudDate;
+    public Schedule withUploadDate(String uploadDate) {
+        this.uploadDate = uploadDate;
         return this;
     }
 
@@ -135,7 +135,7 @@ public class Schedule {
 
     @Override
     public int hashCode() {
-        return new HashCodeBuilder().append(id).append(week).append(uploudDate).append(games).toHashCode();
+        return new HashCodeBuilder().append(id).append(week).append(uploadDate).append(games).toHashCode();
     }
 
     @Override
@@ -147,7 +147,7 @@ public class Schedule {
             return false;
         }
         Schedule rhs = ((Schedule) other);
-        return new EqualsBuilder().append(id, rhs.id).append(week, rhs.week).append(uploudDate, rhs.uploudDate).append(games, rhs.games).isEquals();
+        return new EqualsBuilder().append(id, rhs.id).append(week, rhs.week).append(uploadDate, rhs.uploadDate).append(games, rhs.games).isEquals();
     }
 
 }

@@ -65,6 +65,7 @@ function createWeekStandings(conference1, conference2) {
     standings = {}
     standings._id = '2016_0'
     standings.week = 0
+    standings.uploadDate = new Date()
     standings.conferences = [conference1, conference2]
     return standings
 }
