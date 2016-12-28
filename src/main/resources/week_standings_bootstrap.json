@@ -1,7 +1,7 @@
 {
   "_id": "2016_0",
   "week": 0,
-  "uploadDate": "2016-12-24T13:08:35.119Z",
+  "uploadDate": "2016-12-28T17:52:46.506Z",
   "conferences": [
     {
       "name": "AFC",
@@ -14,15 +14,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             },
             {
@@ -30,15 +33,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             },
             {
@@ -46,15 +52,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             },
             {
@@ -62,15 +71,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             }
           ]
@@ -83,15 +95,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             },
             {
@@ -99,15 +114,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             },
             {
@@ -115,15 +133,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             },
             {
@@ -131,15 +152,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             }
           ]
@@ -152,15 +176,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             },
             {
@@ -168,15 +195,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             },
             {
@@ -184,15 +214,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             },
             {
@@ -200,15 +233,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             }
           ]
@@ -221,15 +257,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             },
             {
@@ -237,15 +276,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             },
             {
@@ -253,15 +295,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             },
             {
@@ -269,15 +314,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             }
           ]
@@ -295,15 +343,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             },
             {
@@ -311,15 +362,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             },
             {
@@ -327,15 +381,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             },
             {
@@ -343,15 +400,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             }
           ]
@@ -364,15 +424,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             },
             {
@@ -380,15 +443,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             },
             {
@@ -396,15 +462,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             },
             {
@@ -412,15 +481,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             }
           ]
@@ -433,15 +505,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             },
             {
@@ -449,15 +524,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             },
             {
@@ -465,15 +543,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             },
             {
@@ -481,15 +562,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             }
           ]
@@ -502,15 +586,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             },
             {
@@ -518,15 +605,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             },
             {
@@ -534,15 +624,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             },
             {
@@ -550,15 +643,18 @@
               "wins": 0,
               "losses": 0,
               "draws": 0,
+              "winningPercentage": 0,
               "oppsOfPlayedGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               },
               "oppsOfRemainingGames": {
                 "wins": 0,
                 "losses": 0,
-                "draws": 0
+                "draws": 0,
+                "winningPercentage": 0
               }
             }
           ]

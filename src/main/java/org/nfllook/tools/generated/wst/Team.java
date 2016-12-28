@@ -14,6 +14,7 @@ import org.apache.commons.lang.builder.ToStringBuilder;
     "wins",
     "losses",
     "draws",
+    "winningPercentage",
     "oppsOfPlayedGames",
     "oppsOfRemainingGames"
 })
@@ -27,6 +28,8 @@ public class Team {
     private Integer losses;
     @JsonProperty("draws")
     private Integer draws;
+    @JsonProperty("winningPercentage")
+    private Integer winningPercentage;
     @JsonProperty("oppsOfPlayedGames")
     private OppsOfPlayedGames oppsOfPlayedGames;
     @JsonProperty("oppsOfRemainingGames")
@@ -135,6 +138,31 @@ public class Team {
     /**
      * 
      * @return
+     *     The winningPercentage
+     */
+    @JsonProperty("winningPercentage")
+    public Integer getWinningPercentage() {
+        return winningPercentage;
+    }
+
+    /**
+     * 
+     * @param winningPercentage
+     *     The winningPercentage
+     */
+    @JsonProperty("winningPercentage")
+    public void setWinningPercentage(Integer winningPercentage) {
+        this.winningPercentage = winningPercentage;
+    }
+
+    public Team withWinningPercentage(Integer winningPercentage) {
+        this.winningPercentage = winningPercentage;
+        return this;
+    }
+
+    /**
+     * 
+     * @return
      *     The oppsOfPlayedGames
      */
     @JsonProperty("oppsOfPlayedGames")
@@ -189,7 +217,7 @@ public class Team {
 
     @Override
     public int hashCode() {
-        return new HashCodeBuilder().append(name).append(wins).append(losses).append(draws).append(oppsOfPlayedGames).append(oppsOfRemainingGames).toHashCode();
+        return new HashCodeBuilder().append(name).append(wins).append(losses).append(draws).append(winningPercentage).append(oppsOfPlayedGames).append(oppsOfRemainingGames).toHashCode();
     }
 
     @Override
@@ -201,7 +229,7 @@ public class Team {
             return false;
         }
         Team rhs = ((Team) other);
-        return new EqualsBuilder().append(name, rhs.name).append(wins, rhs.wins).append(losses, rhs.losses).append(draws, rhs.draws).append(oppsOfPlayedGames, rhs.oppsOfPlayedGames).append(oppsOfRemainingGames, rhs.oppsOfRemainingGames).isEquals();
+        return new EqualsBuilder().append(name, rhs.name).append(wins, rhs.wins).append(losses, rhs.losses).append(draws, rhs.draws).append(winningPercentage, rhs.winningPercentage).append(oppsOfPlayedGames, rhs.oppsOfPlayedGames).append(oppsOfRemainingGames, rhs.oppsOfRemainingGames).isEquals();
     }
 
 }

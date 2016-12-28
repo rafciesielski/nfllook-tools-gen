@@ -36,14 +36,17 @@ function createTeam(name) {
     team.wins = 0
     team.losses = 0
     team.draws = 0
+    team.winningPercentage = 0
     team.oppsOfPlayedGames = {}
     team.oppsOfPlayedGames.wins = 0
     team.oppsOfPlayedGames.losses = 0
     team.oppsOfPlayedGames.draws = 0
+    team.oppsOfPlayedGames.winningPercentage = 0
     team.oppsOfRemainingGames = {}
     team.oppsOfRemainingGames.wins = 0
     team.oppsOfRemainingGames.losses = 0
     team.oppsOfRemainingGames.draws = 0
+    team.oppsOfRemainingGames.winningPercentage = 0
     return team
 }
 

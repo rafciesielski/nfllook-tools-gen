@@ -12,7 +12,8 @@ import org.apache.commons.lang.builder.ToStringBuilder;
 @JsonPropertyOrder({
     "wins",
     "losses",
-    "draws"
+    "draws",
+    "winningPercentage"
 })
 public class OppsOfPlayedGames {
 
@@ -22,6 +23,8 @@ public class OppsOfPlayedGames {
     private Integer losses;
     @JsonProperty("draws")
     private Integer draws;
+    @JsonProperty("winningPercentage")
+    private Integer winningPercentage;
 
     /**
      * 
@@ -98,6 +101,31 @@ public class OppsOfPlayedGames {
         return this;
     }
 
+    /**
+     * 
+     * @return
+     *     The winningPercentage
+     */
+    @JsonProperty("winningPercentage")
+    public Integer getWinningPercentage() {
+        return winningPercentage;
+    }
+
+    /**
+     * 
+     * @param winningPercentage
+     *     The winningPercentage
+     */
+    @JsonProperty("winningPercentage")
+    public void setWinningPercentage(Integer winningPercentage) {
+        this.winningPercentage = winningPercentage;
+    }
+
+    public OppsOfPlayedGames withWinningPercentage(Integer winningPercentage) {
+        this.winningPercentage = winningPercentage;
+        return this;
+    }
+
     @Override
     public String toString() {
         return ToStringBuilder.reflectionToString(this);
@@ -105,7 +133,7 @@ public class OppsOfPlayedGames {
 
     @Override
     public int hashCode() {
-        return new HashCodeBuilder().append(wins).append(losses).append(draws).toHashCode();
+        return new HashCodeBuilder().append(wins).append(losses).append(draws).append(winningPercentage).toHashCode();
     }
 
     @Override
@@ -117,7 +145,7 @@ public class OppsOfPlayedGames {
             return false;
         }
         OppsOfPlayedGames rhs = ((OppsOfPlayedGames) other);
-        return new EqualsBuilder().append(wins, rhs.wins).append(losses, rhs.losses).append(draws, rhs.draws).isEquals();
+        return new EqualsBuilder().append(wins, rhs.wins).append(losses, rhs.losses).append(draws, rhs.draws).append(winningPercentage, rhs.winningPercentage).isEquals();
     }
 
 }

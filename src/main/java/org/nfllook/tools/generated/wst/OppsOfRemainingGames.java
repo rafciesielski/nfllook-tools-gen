@@ -12,7 +12,8 @@ import org.apache.commons.lang.builder.ToStringBuilder;
 @JsonPropertyOrder({
     "wins",
     "losses",
-    "draws"
+    "draws",
+    "winningPercentage"
 })
 public class OppsOfRemainingGames {
 
@@ -22,6 +23,8 @@ public class OppsOfRemainingGames {
     private Integer losses;
     @JsonProperty("draws")
     private Integer draws;
+    @JsonProperty("winningPercentage")
+    private Integer winningPercentage;
 
     /**
      * 
@@ -98,6 +101,31 @@ public class OppsOfRemainingGames {
         return this;
     }
 
+    /**
+     * 
+     * @return
+     *     The winningPercentage
+     */
+    @JsonProperty("winningPercentage")
+    public Integer getWinningPercentage() {
+        return winningPercentage;
+    }
+
+    /**
+     * 
+     * @param winningPercentage
+     *     The winningPercentage
+     */
+    @JsonProperty("winningPercentage")
+    public void setWinningPercentage(Integer winningPercentage) {
+        this.winningPercentage = winningPercentage;
+    }
+
+    public OppsOfRemainingGames withWinningPercentage(Integer winningPercentage) {
+        this.winningPercentage = winningPercentage;
+        return this;
+    }
+
     @Override
     public String toString() {
         return ToStringBuilder.reflectionToString(this);
@@ -105,7 +133,7 @@ public class OppsOfRemainingGames {
 
     @Override
     public int hashCode() {
-        return new HashCodeBuilder().append(wins).append(losses).append(draws).toHashCode();
+        return new HashCodeBuilder().append(wins).append(losses).append(draws).append(winningPercentage).toHashCode();
     }
 
     @Override
@@ -117,7 +145,7 @@ public class OppsOfRemainingGames {
             return false;
         }
         OppsOfRemainingGames rhs = ((OppsOfRemainingGames) other);
-        return new EqualsBuilder().append(wins, rhs.wins).append(losses, rhs.losses).append(draws, rhs.draws).isEquals();
+        return new EqualsBuilder().append(wins, rhs.wins).append(losses, rhs.losses).append(draws, rhs.draws).append(winningPercentage, rhs.winningPercentage).isEquals();
     }
 
 }
